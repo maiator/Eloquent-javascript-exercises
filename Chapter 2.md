@@ -13,6 +13,7 @@ for (var line = "#"; line.length < 8; line += "#")
   My answer produced the correct result but wasn't as cleverly written.
   
   ```javascript
-for (var line = "#"; line.length < 8; line += "#")
-  console.log(line);
+var hTag = "";
+for (i = 0; i < 7; i++) {
+    console.log(hTag += "#"); 
   ```
