@@ -9,3 +9,10 @@ The official answer by the author is:
 for (var line = "#"; line.length < 8; line += "#")
   console.log(line);
   ```
+  
+  My answer produced the correct result but wasn't as cleverly written.
+  
+  ```javascript
+for (var line = "#"; line.length < 8; line += "#")
+  console.log(line);
+  ```
