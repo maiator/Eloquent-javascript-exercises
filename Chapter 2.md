@@ -20,7 +20,7 @@ for (i = 0; i < 7; i++) {
 
 >Exercise 2
 
-This is the solution that I came up with which produced the correc result.
+This is the solution that I came up with which produced the correct result.
 
 ```Javascript
 for (i=1; i<=100; i++)
@@ -30,7 +30,7 @@ for (i=1; i<=100; i++)
   else if (i % 5 == 0) console.log("Buzz");
   else
  console.log(i); 
-};
+}
 ```
 The author's solution is a clever solution because of the variable output and the or "||" in the console.log().
 
