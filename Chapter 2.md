@@ -47,6 +47,7 @@ for (var n = 1; n <= 100; n++) {
 >Exercise 3
 
 My solution to exercise 3 is incomplete, but this is what I have so far:
+```Javascript
 var grid = "";
 for (i = 1; i <= 8; i++)
 { if (i % 2 == 0) 
@@ -56,4 +57,4 @@ grid = grid + " ";
 }
 console.log(grid);
 ```
-```Javascript
+
