@@ -46,15 +46,22 @@ for (var n = 1; n <= 100; n++) {
 ```
 >Exercise 3
 
-My solution to exercise 3 is incomplete, but this is what I have so far:
+My solution to exercise 3. Modify gridWidth variable to modify size of checkerboard.
 ```Javascript
+gridWith = 8
 var grid = "";
-for (i = 1; i <= 8; i++)
-{ if (i % 2 == 0) 
+for (n = 1; n <= gridWidth; n++){
+for (i = 1; i <= gridWdith; i++)
+{ 
+  
+   if ((n+i) % 2 == 0) 
 grid = grid + " ";
  
  else grid = grid + "#"; 
 }
+ grid = grid + "\n";
+}
+
 console.log(grid);
 ```
 
