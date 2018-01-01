@@ -28,3 +28,17 @@ console.log(isEven(75));
 console.log(isEven(-1));
 // → false
 ```
+>Exercise 3
+
+```Javascript
+function countBs(string) {  	
+  	var counted = 0;
+	for (i = 0; i < string.length; i++)
+
+  if (string.charAt(i) == "B") counted += 1;
+  return counted;
+
+}
+
+console.log(countBs("BBC"));
+```
